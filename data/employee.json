@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Johny",
+        "surname": "Raw",
+        "email": "Johny@gmail.com",
+        "reading": [],
+        "read": []
+
+    },
+    {
+        "name": "Kile",
+        "surname": "Sandwich",
+        "email": "Kile@gmail.com",
+        "reading": [],
+        "read": []
+    },
+    {
+        "name": "Nina",
+        "surname": "Hooker",
+        "email": "Nina@gmail.com",
+        "reading": [],
+        "read": []
+    },
+    {
+        "name": "Tony",
+        "surname": "Stark",
+        "email": "Tony@gmail.com",
+        "reading": [],
+        "read": []
+    }
+]
