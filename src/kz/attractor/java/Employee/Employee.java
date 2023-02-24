@@ -1,12 +1,14 @@
 package kz.attractor.java.Employee;
+import kz.attractor.java.Books.Book;
+
 import java.util.List;
 
 public class Employee {
     private String name;
     private String surname;
     private String email;
-    private List<String> reading;
-    private List<String> read;
+    private List<Book> reading;
+    private List<Book> read;
 
     public Employee(String name, String surname, String email) {
         this.name = name;
@@ -38,19 +40,19 @@ public class Employee {
         this.email = email;
     }
 
-    public List<String> getReading() {
+    public List<Book> getReading() {
         return reading;
     }
 
-    public void setReading(List<String> reading) {
+    public void setReading(List<Book> reading) {
         this.reading = reading;
     }
 
-    public List<String> getRead() {
+    public List<Book> getRead() {
         return read;
     }
 
-    public void setRead(List<String> read) {
+    public void setRead(List<Book> read) {
         this.read = read;
     }
 }

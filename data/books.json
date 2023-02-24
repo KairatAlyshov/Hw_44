@@ -5,7 +5,7 @@
         "author": "Лев Толстой",
         "genre": "Роман",
         "year": 1869,
-        "status": "free"
+        "status": "Johny"
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "author": "Федор Достоевский",
         "genre": "Роман",
         "year": 1866,
-        "status": "free"
+        "status": null
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "author": "Федор Достоевский",
         "genre": "Роман",
         "year": 1869,
-        "status": "free"
+        "status":  null
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "author": "Федор Достоевский",
         "genre": "Роман",
         "year": 1880,
-        "status": "free"
+        "status":  "Nina"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "author": "Михаил Булгаков",
         "genre": "Роман",
         "year": 1966,
-        "status": null
+        "status":  null
     },
     {
         "id": 7,
@@ -53,6 +53,6 @@
         "author": "Михаил Булгаков",
         "genre": "Роман",
         "year": 1925,
-        "status": null
+        "status":  null
     }
     ]

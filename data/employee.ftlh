@@ -36,12 +36,18 @@
     <td>${employee.name}</td>
     <td>${employee.surname}</td>
     <td>${employee.email}</td>
-    <#list employee.reading as reading>
-    <td>${employee.reading}</td>
-    </#list>
+
+    <td>
+     <#list employee.reading as reading>
+         ${reading.name}
+     </#list>
+    </td>
+
+   <td>
     <#list employee.read as read>
-    <td>${employee.read}</td>
-    </#list>
+        ${read.name}
+    </#list></td>
+
   </tr>
   </#list>
   </tbody>

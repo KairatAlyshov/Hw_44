@@ -40,8 +40,8 @@
             <td>${book.author}</td>
             <td>${book.genre}</td>
             <td>${book.year}</td>
-            <td>${book.status!"busy"}</td>
-            <td><a type="button" class="btn btn-dark" href="/books/bookInfo">Dark</a></td>
+            <td>${book.status!"free"}</td>
+            <td><a type="button" class="btn btn-dark" href="/books/bookInfo">Info</a></td>
 
         </tr>
     </#list>
