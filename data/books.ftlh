@@ -14,27 +14,35 @@
 <table class="table table-striped">
     <thead>
     <tr>
+        <th scope="col">Id</th>
         <th scope="col">Name</th>
         <th scope="col">Author</th>
         <th scope="col">Genre</th>
         <th scope="col">Year</th>
+        <th scope="col">Status</th>
     </tr>
     </thead>
     <tfoot>
     <tr>
+                <th scope="col">Id</th>
                 <th scope="col">Name</th>
                 <th scope="col">Author</th>
                 <th scope="col">Genre</th>
                 <th scope="col">Year</th>
+                <th scope="col">Status</th>
     </tr>
     </tfoot>
     <tbody>
     <#list books as book>
         <tr>
+            <td>${book.id}</td>
             <td>${book.name}</td>
             <td>${book.author}</td>
             <td>${book.genre}</td>
             <td>${book.year}</td>
+            <td>${book.status!"busy"}</td>
+            <td><a type="button" class="btn btn-dark" href="/books/bookInfo">Dark</a></td>
+
         </tr>
     </#list>
     </tbody>
